@@ -48,6 +48,7 @@
       return view('items.show', [
           'item' => $item,
           'want_users' => $want_users,
+          'have_users' => $have_users,
       ]);
     }
   }
